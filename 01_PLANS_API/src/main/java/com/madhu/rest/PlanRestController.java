@@ -18,7 +18,7 @@ import com.madhu.entity.Plan;
 import com.madhu.props.AppProperties;
 import com.madhu.service.PlanService;
 
-@RestController
+@RestController  
 public class PlanRestController {
 
 	private PlanService service;
