@@ -10,3 +10,15 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+    
+plan-api:
+  messages:
+    planSaveSucc: Plan Saved Successfully
+    planSaveFail: Plan Save Failed
+    planUpdateSucc: Plan Updated Succesfully
+    planUpdateFail: Plan Update Failed
+    planDeleteSucc: Plan Deleted Successfully
+    planDeleteFail: Plan Delete Failed
+    planStatusChanged: Plan Status Changed Successfully
+    planStatusChangeFail: Plan Status Change Failed
