@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: 01_PLANS_API
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: madhu
+    url: jdbc:h2:mem:madhudb
+    username: madhu
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
